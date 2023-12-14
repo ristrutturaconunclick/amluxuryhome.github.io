@@ -1,0 +1,62 @@
+/* DESKTOP */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-image: url('/src/img/logo-1.svg');
+}
+
+
+a:hover {
+  color:black;
+}
+
+
+p{
+    font-size: 25px;
+    color:#ffc107;
+}
+
+.container{
+background: transparent;
+}
+
+.card1 {
+  background: transparent;
+}
+
+.bg-t {
+  background-color: transparent;
+  border: none; 
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: none;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767px){
+    .img-fluid {
+      width: 50%;
+      height: auto;
+      margin-right: 5%;
+      } 
+     
+      p {
+          font-size: 15px;
+      }
+
+      .btn-button{
+        width: 50%;
+        margin-right: 15%;
+      }
+
+      .footer {
+        margin-right: 50%;
+        margin-left: auto;
+      }
+  }

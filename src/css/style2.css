@@ -1,0 +1,43 @@
+.img-fluid{
+  margin-left: 38%;
+}
+
+.img-fluid2{
+  margin-left: 45%;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px){
+    .img-fluid {
+      width: 50%;
+      height: auto;
+      margin-left: 25%;
+      }
+   
+      p {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .img-fluid2{
+        margin-left: 15%;
+      }
+      
+    .iframe-css{
+        width: 295px;
+        height: 195px;
+    }
+}
