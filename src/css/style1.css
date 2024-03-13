@@ -1,0 +1,68 @@
+/* DESKTOP */
+body, html {
+  background: url('/src/img/logo-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  margin: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card1 h1 {
+  color: black;
+  background-color: yellow;
+}
+
+.card1 .card1-text {
+  font-size: 25px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.card1 .btn {
+  margin-top: 10px;
+}
+
+.text {
+  color: black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px){
+  .img-fluid {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    background-color: transparent;
+  }
+
+  .image {
+    width: 25%;
+  } 
+}

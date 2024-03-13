@@ -1,0 +1,58 @@
+/* DESKTOP */
+body, html {
+  background: url('/src/img/logo-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+}
+
+.img-fluid2 {
+  margin-left: 1%;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+  color: black;
+  background-color: yellow;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video.center {
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  p {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .img-fluid2 {
+    width: 50%;
+  }
+
+  .iframe-css {
+    width: 295px;
+    height: 195px;
+  }
+}
