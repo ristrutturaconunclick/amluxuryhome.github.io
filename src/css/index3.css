@@ -5,36 +5,6 @@
   font-weight: bold;
 }
 
-.rectangle {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.rectangle h2 {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: #212529;
-  font-size: 20px; 
-  text-align: center;
-}
-
-.rectangle button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
 .banner-area {
   position: relative;
   min-height: 300px;
@@ -74,55 +44,4 @@
 
 .card-img-top{
   pointer-events: none;
-}
-
-.rectangle {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.rectangle h2 {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: #212529;
-  font-size: 20px; 
-  text-align: center;
-}
-
-.rectangle button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .rectangle {
-    padding: 10px;
-  }
-  
-  .rectangle h2 {
-    font-size: 18px;
-  }
-
-  .rectangle {
-    background-color: transparent;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
 }

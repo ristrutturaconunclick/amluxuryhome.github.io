@@ -138,7 +138,7 @@ img{
 /* Button */
 .custom-btn {
   background-color: #00ff37; 
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px 20px;
   font-size: 16px;
