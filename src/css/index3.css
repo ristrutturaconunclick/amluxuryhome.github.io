@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
+
+.font{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.rectangle {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rectangle h2 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #212529;
+  font-size: 20px; 
+  text-align: center;
+}
+
+.rectangle button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.banner-area {
+  position: relative;
+  min-height: 300px;
+  color: #fff;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-image: url("/src/img/banner/banner2.jpg");
+}
+
+.banner-title {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  font-weight: bold;
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .banner-title {
+    font-size: 35px;
+    margin-top: 25%;
+  }
+
+.banner-area {
+ width: 100%;
+}
+
+}
+@media (max-width: 575px) {
+  .banner-title {
+    font-size: 32px;
+  }
+}
+
+.card-img-top{
+  pointer-events: none;
+}
+
+.rectangle {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rectangle h2 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #212529;
+  font-size: 20px; 
+  text-align: center;
+}
+
+.rectangle button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .rectangle {
+    padding: 10px;
+  }
+  
+  .rectangle h2 {
+    font-size: 18px;
+  }
+
+  .rectangle {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

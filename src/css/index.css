@@ -1,0 +1,205 @@
+/* General Custom Text And Other */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
+
+.font{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color:#383838;
+}
+
+.nav-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-custom {
+  height: 66px;
+}
+
+/* Center logo vertically */
+.navbar-brand img {
+  height: 100%;
+  display: block;
+}
+
+img{
+  pointer-events: none;
+}
+
+.custom-h1{
+  color:white;
+  text-align: center;
+}
+
+h3{
+  color:#ffb600
+}
+
+/* Section Carousel */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 30rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.carousel-caption {
+  transition: all 2.5s ease;
+  opacity: 0; 
+  transform: translateY(100%); 
+}
+
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .carousel-img {
+    pointer-events: none;
+    width: 100%;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 40em) {
+  .carousel-item {
+    height: 20rem;
+  }
+
+  .carousel-item > img {
+    width: 150%;
+    height: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .carousel-caption h1 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.10rem 0.5rem;
+  }
+}
+
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Section Chi Siamo? */
+.image-container {
+max-width: 35%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+  
+
+@media screen and (max-width: 767px){
+  .image-container {
+    max-width: 50%;
+    }
+}
+
+/* Section Service */
+.ts-service-box.icon-left  {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  background: #ffb600;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.ts-service-box .ts-service-box-content,
+.ts-service-box.icon-left .ts-service-box-info {
+  margin-left: 90px;
+}
+
+.ts-service-box .ts-service-box-content h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.ts-service-box .ts-service-box-info h3,
+.ts-service-box.icon-left .ts-service-box-info h3,
+.ts-service-info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.ts-service-box .ts-service-box-info,
+.ts-service-box .ts-service-box-content h3,
+.ts-service-info {
+  margin-left: 30px;
+}
+
+.ts-service-box .ts-service-box-content {
+  margin-bottom: 30px;
+}
+
+.service-box-title {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 10px;
+}
+
+.ts-service-box-bg {
+  background: #252525;
+  color: #fff;
+  padding: 30px;
+}
+
+/* Section Conatti */
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}

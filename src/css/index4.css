@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
+
+.font{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color:#212529;
+}
+
+h5{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-img-top{
+  pointer-events: none;
+}
+
+.card-img {
+  height: 320px;
+  object-fit: cover;
+}
+
+.banner-area {
+  position: relative;
+  min-height: 300px;
+  color: #fff;
+  pointer-events: none;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-image: url("/src/img/greca.jpg");
+}
+
+
+.banner-area-hotel {
+  position: relative;
+  min-height: 300px;
+  color: #fff;
+  pointer-events: none;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-image: url("/src/img/ville.jpg");
+}
+
+.banner-title {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  font-weight: bold;
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .banner-title {
+    font-size: 40px;
+    margin-top: 25%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.banner-area {
+ width: 100%;
+}
+
+}
+@media (max-width: 575px) {
+  .banner-title {
+    font-size: 32px;
+  }
+}
+
+.card-title{
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Button */
+.custom-btn {
+  background-color: #00ff37; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1%;
+  margin-left: 45%;
+}
+.custom-btn:hover {
+  background-color: #00ff37;
+}
