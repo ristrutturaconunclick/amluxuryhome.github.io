@@ -29,11 +29,15 @@ img{
 .custom-h1{
   color:white;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3{
-  color:#ffb600
+  color:#ffb600;
+  font-family: "Montserrat", sans-serif;
 }
+
+
 
 /* Section Carousel */
 .carousel {

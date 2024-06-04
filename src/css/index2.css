@@ -20,25 +20,26 @@ img{
 
 .img-css{
 max-width: 50%;
+pointer-events: none;
 }
 
-.carousel-control-prev-icon {
-  background-color: black; 
-}
+/* Section Chi Siamo? */
+.image-container {
+  max-width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
 
-.carousel-control-next-icon {
-  background-color: black; 
 }
+    
+  
+  @media screen and (max-width: 767px){
+    .image-container {
+      max-width: 50%;
+      }
+  }
 
-.text-block {
-  position: absolute;
-  top: 75%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  background-color: #212529bf;
-  color: white;
-  padding: 10px 20px;
-}
 
 
 @media (max-width: 767px) {
@@ -53,7 +54,6 @@ max-width: 50%;
 }
 
 /* TS SERVICE */
-
 .ts-service-box .ts-service-box-content,
 .ts-service-box.icon-left .ts-service-box-info {
   margin-left: 90px;
@@ -100,99 +100,5 @@ max-width: 50%;
   min-height: 300px;
   background-position: 50% 50%;
   background-size: cover;
-  background-image: url("/src/img/banner/banner8.jpg");
-}
-
-.banner-title {
-  color: black;
-  text-transform: uppercase;
-  font-size: 58px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-weight: 900;
-}
-@media (max-width: 767px) {
-  .banner-title {
-    font-size: 48px;
-  }
-
-.banner-area {
- width: 100%;
-}
-
-}
-@media (max-width: 575px) {
-  .banner-title {
-    font-size: 32px;
-  }
-}
-
-.banner-text {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  max-width: 1170px;
-  margin: 0 auto;
-  width: 100%;
-  z-index: 1;
-  transform: translateY(-50%);
-}
-
-.banner-heading {
-  text-align: center;
-}
-
-/* Section Rectangle */
-.rectangle {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.rectangle h2 {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: #212529;
-  font-size: 20px; 
-  text-align: center;
-}
-
-.rectangle button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .rectangle {
-    padding: 10px;
-  }
-  
-  .rectangle h2 {
-    font-size: 18px;
-  }
-
-  .rectangle {
-    background-color: transparent;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
+  background-image: url("/src/img/greca.jpg");
 }
